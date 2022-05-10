@@ -1,0 +1,41 @@
+
+body{
+    background-color: #002147;
+}
+
+.buttonlist{
+    text-align:center ;
+    background-color: transparent;
+    margin-top: 100px;
+}
+
+.login{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 15%;
+}
+
+.register{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 15%;
+}
+
+
+.actions{
+    text-align: center;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: #002147;
+}
+
+h1{
+    margin-top: 18%;
+    user-select: none;
+}
+
+p:hover{
+    transform: scale(1.05)
+}

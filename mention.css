@@ -1,0 +1,58 @@
+body{
+    background-image: url(images/sao.jpg);
+    background-size: cover;
+}
+
+* {
+    font-family: koulen;
+    color: white;
+}
+
+.button{
+    margin-left: 25px;
+}
+
+#homepage{
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: large;
+}
+
+h1{
+    font-size: 300%;
+    text-align: center;
+    color: white;
+    user-select: none;
+    margin: auto;
+}
+
+.mentions{
+    text-align:center ;
+    font-size: 200%;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    
+}
+
+a:visited{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+p:hover {
+    transform: scale(1.05);
+}
+

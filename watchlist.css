@@ -1,0 +1,131 @@
+body{
+   background-image: url(images/clouds2);
+   background-size: cover;
+    
+  
+}
+
+h1{
+    text-shadow: 3px 3px 1px black;
+    font-family: koulen;
+    user-select: none;
+    text-align: center;
+    margin:auto;
+    font-size: 300%;
+    color: white;
+}
+
+#buttonlist {
+        cursor: pointer;
+ }
+
+#homepage{
+    cursor: pointer;
+    color: #636363;
+    background-color: transparent;
+    border: 2px solid white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: koulen;
+    font-size: large;
+   
+}
+
+button:hover{
+    background-color: #636363;
+    transform: scale(1.05);
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover { 
+    text-decoration: none;
+    transform: scale(1.05);
+    transition: width 2s;
+
+   
+}
+
+
+a:active { 
+    text-decoration: none; 
+}
+
+.series{
+    font-family: koulen;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 40px; 
+
+    flex-direction: row;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#elite{
+  height:420px ;
+}
+
+a{
+    color: white;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Make the image to responsive */
+  
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image 
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: red;
+  }
+  
+   When you mouse over the container, fade in the overlay icon
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+   The icon inside the overlay is positioned in the middle vertically and horizontally 
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+   When you move the mouse over the icon, change color 
+  .fa-user:hover {
+    color: #eee;
+  }
+  */
+
+
+

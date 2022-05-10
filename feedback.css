@@ -1,0 +1,73 @@
+
+
+body{
+    background-color:#002147;
+   
+}
+
+h1{
+    font-family:koulen;
+    margin: auto;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+    user-select: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #636363;
+    transform: scale(1.05);
+}
+
+#area1{
+   text-align: center;
+   
+}
+
+#submitbut{
+    cursor: pointer;
+    text-align: center;
+}
+#homepage{
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    font-family: koulen;
+    text-decoration: none;
+    font-size: large;
+}
+
+#submitter{
+    cursor: pointer;
+    color: white;
+    width: 30%;
+    margin-top: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-family: koulen;
+    font-size: large;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover { 
+    text-decoration: none;
+}
+
+
+a:active { 
+    text-decoration: none; 
+}
+
+a{
+    color: white;
+}
