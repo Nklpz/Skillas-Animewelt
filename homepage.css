@@ -31,9 +31,10 @@
 }
 
 body {
-    background-image: url(images/banner.jpg);
-    background-size: cover;
+    background-color: #121C22;
   }
+
+ 
 
 h1 {
     font-family:koulen;
@@ -43,7 +44,10 @@ h1 {
     text-align:center;
     text-shadow: 3px 3px 1px #000;
     user-select: none;
+    background-color: rgb(79, 78, 107);
     color: white;
+   
+   
     /* animation: scale 1s alternate infinite;*/
 }
 
@@ -54,6 +58,7 @@ h2{
     user-select: none;
     font-size: 250%;
     text-shadow: 3px 3px 1px black;
+    margin-right: 50px;
 }
 
 h3{
@@ -66,6 +71,7 @@ h3{
     float: right;
     border: 3px solid white;
     margin-right: 250px;
+    box-shadow: 20px 20px 20px #000;
 }
 
 #creatorarea{
@@ -74,9 +80,10 @@ h3{
 
 #search {
     text-align: center;
-    margin:auto;
+    margin-top:20px;
     cursor: pointer;
     color: white;
+   
 }
 
 #bar{
@@ -84,9 +91,11 @@ h3{
    width:30%;
    background-color: transparent;
    border: 2px solid white;
+   border-radius: 3px;
    font-family: koulen;
    font-size: large;
    color: white;
+  
 }
 
 #button{
@@ -163,7 +172,7 @@ a:active {
     left:-301px;
     width: 300px;
     height: 100%;
-    background: url(images/banner.jpg);
+    background-color:rgb(49, 52, 83);
     transition: all .5s ease;
     font-family: koulen;
     border-right: 1px solid white;
@@ -175,9 +184,15 @@ a:active {
     color: white;
     text-align: center;
     line-height: 70px;
-    background: #093E71;
+    background: #081624;
     user-select: none;
+    border-bottom: 1px solid white;
 }
+
+.sidebar ul{
+    background-color: rgb(49, 52, 83);
+}
+
 .sidebar ul a{
     display: block;
     height: 100%;
@@ -187,14 +202,14 @@ a:active {
     color: white;
     padding-left: 40px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(255,255,255,.1);
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid white;
     transition: .4s;
 }
 
 ul li:hover a{
     padding-left: 50px;
     color: aquamarine;
+    transform: scale(1.05);
 }
 .sidebar ul a i{
     margin-right: 16px;
@@ -269,7 +284,9 @@ label #cancel{
     font-family: koulen;
 }
 
-
+.contact {
+    text-align: center;
+}
 
 
 

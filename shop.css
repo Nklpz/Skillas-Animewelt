@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 300%;
+    font-family: koulen;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-right: 170px;
+}
+
+.figures{
+    width:100%;
+    margin-top: 5px;
+ 
+}
+
+.buttons{
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+
+#homepage{
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top:20px ;
+    float: left;
+    font-family: koulen;
+    font-size: large;
+}
+
+#homepage:hover{
+    transform: scale(1.05);
+}
+
+#merch:hover{
+    transform: scale(1.05);
+}
+#manga:hover{
+    transform: scale(1.05);
+}
+#fig:hover{
+    transform: scale(1.05);
+}
+
+
+#merch{
+    width: 20%;
+    background-color: transparent;
+    border: 3px solid black;
+    font-family: koulen;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+#manga{
+    width: 20%;
+    background-color: transparent;
+    border: 3px solid black;
+    font-family: koulen;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+#fig{
+    width: 20%;
+    background-color: transparent;
+    border: 3px solid black;
+    font-family: koulen;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+a:hover{
+    text-decoration: none;
+   
+}
+a:active{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+
+a{
+   color: black  ;
+}

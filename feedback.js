@@ -6,3 +6,5 @@ var textArea = document.getElementById("area");
 function onSubmit() {
     alert(textArea.value);
 }
+
+

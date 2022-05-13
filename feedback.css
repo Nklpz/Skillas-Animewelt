@@ -1,7 +1,7 @@
 
 
 body{
-    background-color:#002147;
+    background-color:#121C22;
    
 }
 
@@ -12,6 +12,7 @@ h1{
     text-shadow: 3px 3px 1px black;
     user-select: none;
     color: white;
+    margin-right: 175px;
 }
 
 button:hover{
@@ -35,7 +36,11 @@ button:hover{
     background-color: transparent;
     font-family: koulen;
     text-decoration: none;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
     font-size: large;
+    border-radius: 3px;
 }
 
 #submitter{
@@ -61,6 +66,7 @@ a:visited {
 
 a:hover { 
     text-decoration: none;
+    color: aquamarine;
 }
 
 

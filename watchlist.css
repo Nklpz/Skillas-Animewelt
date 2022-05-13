@@ -1,6 +1,5 @@
 body{
-   background-image: url(images/clouds2.jpg);
-   background-size: cover;
+   background-color: #121C22;
 }
 
 h1{
@@ -27,6 +26,7 @@ h1{
     font-family: koulen;
     font-size: large;
    
+    
 }
 
 button:hover{

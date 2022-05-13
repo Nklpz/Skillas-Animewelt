@@ -1,0 +1,97 @@
+h1{
+    font-family: koulen;
+    font-size: 300%;
+    text-align: center;
+    margin: auto;
+    text-shadow: 3px 3px 1px gray;
+}
+
+.searchloc{
+    text-align: center;
+}
+
+#searchbar{
+    font-family: koulen;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding-left: 20px;
+    width: 30%;
+}
+
+#product1{
+    text-align: center;
+   
+}
+
+#product1 .pro-container{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-height: 250px;
+    padding: 10px 12px;
+    border: 3px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.329);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.548);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product1 .pro .des span{
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181,25);
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 25px;
+    font-weight: 700;
+    color: cadetblue;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e2e2e2d7;
+    font-weight: 800;
+    color: cadetblue;
+    border: 1px solid orange;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}

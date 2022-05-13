@@ -1,6 +1,7 @@
 
 body{
-    background-color: #002147;
+    background-image: url(images/loginwal.jpg);
+    background-size: cover;
 }
 
 .buttonlist{
@@ -13,6 +14,7 @@ body{
     background-color: transparent;
     border: 2px solid white;
     width: 15%;
+    margin-bottom: 10px;
 }
 
 .register{
@@ -28,12 +30,13 @@ body{
 }
 
 button:hover{
-    background-color: #002147;
+    background-color: transparent;
 }
 
 h1{
-    margin-top: 18%;
+    margin-top: 10%;
     user-select: none;
+    font-size: 400%;
 }
 
 p:hover{
