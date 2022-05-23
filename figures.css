@@ -2,29 +2,10 @@
     font-family: koulen;
 }
 
-#homepage{
-    cursor: pointer;
-    color: black;
-    background-color: transparent;
-    border: 3px solid black;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-left: 40px;
-    margin-top:20px ;
-    float: left;
-    font-family: koulen;
-    font-size: large;
-}
-
-body{
-    position: absolute;
-}
-
 h1{
     font-size: 300%;
     text-align: center;
     margin: auto;
-    margin-right: 10%;
     text-shadow: 3px 3px 1px lightgrey;
 }
 h2{
@@ -33,6 +14,8 @@ h2{
     margin-top: 50px;
     text-decoration: underline 3px;
 }
+
+
 
 .searchloc{
     text-align: center;
@@ -102,7 +85,7 @@ h2{
 
 #product1 .pro .des h4{
     padding-top: 7px;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
     color: cadetblue;
 }
@@ -125,6 +108,20 @@ h2{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+}
+
+#homepage{
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top:20px ;
+    float: left;
+    font-family: koulen;
+    font-size: large;
 }
 
 a:link {

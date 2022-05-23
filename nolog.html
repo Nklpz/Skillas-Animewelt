@@ -8,7 +8,7 @@
     <meta name="author" content="Skillas">
     <meta name="keywords" content="Anime, Hentai">
 
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="nolog.css">
     <link rel="stylesheet" href="universal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,11 +39,13 @@
                 <header>Menu</header>
                     <ul>
                         <li class="siderbar-href-scale"><a  href="events.html"><i class="fa fa-calendar" aria-hidden="true"></i>Events</a></li>
-                        <li class="siderbar-href-scale"><a href="#about"><i class="fa fa-question-circle" aria-hidden="true"></i>About</a></li>
+                        <li class="siderbar-href-scale"><a href="#about"><i class="fa fa-question-circle" id="abt"></i>About</a></li>
                         <li class="siderbar-href-scale"><a  href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i>Contacts</a></li>
-                        <li class="siderbar-href-scale"><a  href="feedback.html"><i class="fa fa-comments" aria-hidden="true"></i>Feedback</a></li>
+                    <!-- add the you need to be logged in! feature -->    
+                        <li class="siderbar-href-scale"><a  href="#"><i class="fa fa-comments" aria-hidden="true"></i>Feedback</a></li>
                         <li class="siderbar-href-scale"><a href="mention.html" ><i class="fas fa-award"></i>Honorable Mention</a></li>
-                        <li class="siderbar-href-scale"><a href="shop.html" ><i class="fa fa-shopping-cart"></i>Shop</a></li>
+                    <!-- add the you need to be logged in! feature -->
+                        <li class="siderbar-href-scale"><a href="#" ><i class="fa fa-shopping-cart"></i>Shop</a></li>
                     </ul>
             </section>
         </div>
@@ -53,13 +55,11 @@
            <form id="search">
                <input type="search" placeholder="Search for Anime" id="bar" >
                <button id="button"><i class="fa fa-random" aria-hidden="true"></i></button>
-               <button id="watchlist"><a href="watchlist.html">Watchlist</a></button>
+               <button id="login"><a href="index.html">Login</a></button>
            </form>
           
     </header>
-    <main class="main">
-        <h2>Continue watching</h2>
-    
+    <main class="main">    
         <h2>Recommendations from Us</h2>
         
         <h2>News</h2>
@@ -129,7 +129,9 @@
             </div>
         </div>
         <section id="contact">
-        <h2>How to contact us</h2>
+            <div class="how-to-contact">
+        <h2 >How to contact us</h2>
+    </div>
             <div class="contacts">
                 <p id="phone"><i class="fa fa-phone"></i> : 0174 1470247</p>
                 <p id="email"><i class="fa fa-envelope"></i> : niklas.euler29@gmail.com</p>

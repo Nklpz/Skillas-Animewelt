@@ -2,29 +2,10 @@
     font-family: koulen;
 }
 
-#homepage{
-    cursor: pointer;
-    color: black;
-    background-color: transparent;
-    border: 3px solid black;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-left: 40px;
-    margin-top:20px ;
-    float: left;
-    font-family: koulen;
-    font-size: large;
-}
-
-body{
-    position: absolute;
-}
-
 h1{
     font-size: 300%;
     text-align: center;
     margin: auto;
-    margin-right: 10%;
     text-shadow: 3px 3px 1px lightgrey;
 }
 h2{
@@ -127,6 +108,24 @@ h2{
     justify-content: space-evenly;
 }
 
+#homepage{
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top:20px ;
+    float: left;
+    font-family: koulen;
+    font-size: large;
+}
+
+a{
+    color: black;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -143,7 +142,4 @@ a:hover {
     transition: width 2s;
 
    
-}
-a{
-    color: black;
 }
