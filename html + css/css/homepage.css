@@ -1,0 +1,303 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: koulen;
+    color: white;
+    /*animation: rotate 5s infinite;*/
+    /*animation: scale 5s alternate linear infinite;*/
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(0.5);
+    }
+}
+
+body {
+    background-color: #121C22;
+  }
+
+ 
+
+h1 {
+    font-family:koulen;
+    font-size: 300%;
+    margin:auto;
+    border: 3px rgb(23, 16, 233);
+    text-align:center;
+    text-shadow: 3px 3px 1px #000;
+    user-select: none;
+    background-color: rgb(79, 78, 107);
+    color: white;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+   
+    /* animation: scale 1s alternate infinite;*/
+}
+
+#planet{
+    float: right;
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+h2{
+    color: white;
+    font-family:koulen;
+    margin-left:50px;
+    user-select: none;
+    font-size: 250%;
+    text-shadow: 3px 3px 1px black;
+    margin-right: 50px;
+}
+
+h3{
+    margin-left: 150px;
+    text-shadow: 3px 3px 1px black;
+}
+
+#creator{
+    width: 300px;
+    float: right;
+    border: 3px solid white;
+    margin-right: 250px;
+    box-shadow: 10px 10px 10px #000;
+}
+
+#creatorarea{
+    margin-left: 200px;
+}
+
+#search {
+    text-align: center;
+    margin-top:20px;
+    cursor: pointer;
+    color: white;
+}
+
+#bar{
+   padding-left: 15px;
+   width:30%;
+   background-color: transparent;
+   border: 2px solid white;
+   border-radius: 3px;
+   font-family: koulen;
+   font-size: large;
+   color: white;
+  
+}
+
+#button{
+    background-color: transparent;
+    font-family: koulen;
+    font-size: large;
+    color: white;
+    border: 2px solid  white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#watchlist{
+    background-color: transparent;
+    font-family: koulen;
+    font-size: large;
+    color: white;
+    border: 2px solid  white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+#links{
+    font-family: koulen;
+     text-align: center;
+     font-size: 150%;  
+     color: white;
+}
+
+button:hover{
+    background-color: #636363;
+    transform: scale(1.05);
+}
+
+a{
+    color: white;
+}
+
+a:link {
+     text-decoration: none;
+}
+
+a:visited {
+     text-decoration: none;
+}
+
+a:hover { 
+     text-decoration: none;
+     color: aquamarine;
+ }
+
+a:active { 
+     text-decoration: none; 
+}
+
+.icons .fab{
+    color: white;
+    font-size: 50px;
+    margin-left: 50px;
+    text-shadow: 3px 3px 1px black;   
+}
+
+.icons .fab:hover{
+    transform: scale(1.05);
+    color: aquamarine;
+}
+
+.sidebar{
+    position: fixed;
+    left:-301px;
+    width: 300px;
+    height: 100%;
+    background-color:rgb(49, 52, 83);
+    transition: all .5s ease;
+    font-family: koulen;
+    border-right: 1px solid white;
+    user-select: none;
+}
+
+.sidebar header{
+    font-family: koulen;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #081624;
+    user-select: none;
+    border-bottom: 1px solid white;
+}
+
+.sidebar ul{
+    background-color: rgb(49, 52, 83);
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+    color: aquamarine;
+    transform: scale(1.05);
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 3px;
+}
+
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #3ca6db;
+    padding: 4px 9px;
+    transition: all .5s ease ;
+
+}
+
+#check:checked ~ .sidebar{
+    left: 0;
+}
+
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+   left: 195px;
+}
+
+#check:checked ~ section{
+    margin-left: 250px;
+    
+}
+
+.section{
+    background-image: url(images/banner.jpg);
+    transition: all .5s;
+    
+}
+
+.fab fa-discord{
+    font-family: koulen;
+}
+
+
+.footer{
+    border-top: 3px solid black;
+    background-color: rgb(79, 78, 107);
+    margin-top: 80px;
+}
+
+.media{
+    float: right;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.contacts{
+    color: white;
+    font-size: 150%;
+    font-family: koulen;
+    text-shadow: 3px 3px 1px black;
+    user-select: none;
+    margin-left: 10%;
+}
+
+ 

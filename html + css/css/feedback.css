@@ -1,0 +1,100 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color:#121C22;
+   
+}
+
+h1{
+    width: 100%;
+    background-size: cover;
+    font-family:koulen;
+    font-size: 300%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+    user-select: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #636363;
+    transform: scale(1.05);
+}
+
+#area1{
+   text-align: center;
+   margin-top: 10px;
+}
+
+ /* add an animation for the button */
+
+#submitbut{
+    cursor: pointer;
+    text-align: center;
+}
+#homepage{
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    font-family: koulen;
+    text-decoration: none;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: large;
+    border-radius: 3px;
+}
+
+#submitter{
+    cursor: pointer;
+    color: white;
+    width: 30%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-family: koulen;
+    font-size: large;
+}
+
+#submitter:hover{
+    transform: scale(1.05);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover { 
+    text-decoration: none;
+    color: aquamarine;
+}
+
+
+a:active { 
+    text-decoration: none; 
+}
+
+a{
+    color: white;
+}
+
+.top{
+    background-image: url(images/anime-clouds-10.jpg);
+    padding-bottom: 100px;
+    border-bottom: 2px solid white;
+}
+
+.header{
+    margin-right: 10%;
+}
